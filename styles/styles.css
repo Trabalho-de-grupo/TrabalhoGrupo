@@ -1,0 +1,32 @@
+
+body{
+    font-family: poppins;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #900C3F;
+    padding: 20px;
+    margin:0;
+}
+.subtitulo,.pergunta,.emoji,.comentario,.botaosubmeter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emoji{
+    font-size: 1.3em ;
+    display: flex;
+}
+.emoji > div:not(:first-child){
+    margin-left: 1rem;
+}
+
+.emoji > div{
+    cursor: pointer;
+    transition: transform .2s ease-in ;
+}
+.emoji>div:hover{
+    transform: scale(1.4);
+}
