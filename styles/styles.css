@@ -7,8 +7,9 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #900C3F;
-    padding: 20px;
+    padding: 30px;
     margin:0;
+    color: #ffffff;
 }
 .subtitulo,.pergunta,.emoji,.comentario,.botaosubmeter{
     display: flex;
@@ -16,7 +17,7 @@ body{
     justify-content: center;
 }
 .emoji{
-    font-size: 1.3em ;
+    font-size: 2em ;
     display: flex;
 }
 .emoji > div:not(:first-child){
