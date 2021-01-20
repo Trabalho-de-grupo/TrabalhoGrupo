@@ -8,6 +8,19 @@ textarea{
     margin-left: auto;
     margin-right: auto;
 }
+.submeter{
+    border-radius: 8px;
+    font-family: poppins;
+    border:none;
+    position: absolute;
+}
+.submeter:hover{
+    color:#900C3F;
+    border: 1px solid #900C3F;
+}
+.pergunta{
+    bottom:50%;
+}
 .titulo{
     display: flex;
     align-items: center;
