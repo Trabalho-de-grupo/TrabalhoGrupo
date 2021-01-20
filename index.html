@@ -5,24 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial</title>
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/magicscroll.js"></script>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/footerstyles.css"> 
-    <link rel="stylesheet" href="scripts/magicscroll.css">
 </head>
-
-<header>
-    
-</header>
 
 <body>
 
     <h1>Pagina Inicial</h1>
 
-        <img src="images/Vinho/vinhoalvarinho.jpg" />
-        <img src="images/Vinho/vinhocasalgarcia.jpg" />
-        <img src="images/Vinho/vinhomuralhas.jpg" />
-        <img src="images/Vinho/vinhosoalheiro.jpg" />
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img class="vinhoimagem" src="images/Vinho/vinhoalvarinho.jpg" style="width:100%">
+          <br><br>
+          <div class="text">Vinho Alvarinho</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img class="vinhoimagem" src="images/Vinho/vinhocasalgarcia.jpg" style="width:100%">
+          <br><br>
+          <div class="text">Vinho Casal Garcia</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img class="vinhoimagem" src="images/Vinho/vinhomuralhas.jpg" style="width:100%">
+          <br><br>
+          <div class="text">Vinho Muralhas</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img class="vinhoimagem" src="images/Vinho/vinhosoalheiro.jpg" style="width:100%">
+            <br><br>
+            <div class="text">Vinho Soalheiro</div>
+          </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+
+        <br><br><br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>  
+        </div>
+        
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+    <br><br>
 
 </body>
 
