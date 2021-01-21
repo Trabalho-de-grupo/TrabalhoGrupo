@@ -10,6 +10,10 @@ nav{
     text-align: right;
 }
 
+.produtos2{
+  margin-right: 145px;
+}
+
 nav ul{
     display: inline-block;
     list-style-type: none;
