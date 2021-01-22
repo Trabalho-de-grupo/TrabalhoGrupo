@@ -1,3 +1,6 @@
+html{
+  max-width: 1300px;
+}
 .cabecalho{
     display: flex;
     align-items: center;
@@ -10,8 +13,8 @@ nav{
     text-align: right;
 }
 
-.produtos2{
-  margin-right: 145px;
+.produtos{
+  align-self: center;
 }
 
 nav ul{
@@ -27,7 +30,7 @@ a{
     color:#ffffff;
 }
 header{
-    max-width: 1300px;
+    min-width: 100%;
     margin:auto;
 }
 .logo{
