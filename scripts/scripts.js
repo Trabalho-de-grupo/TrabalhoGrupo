@@ -1,8 +1,7 @@
 var opiniaonavval
 var opiniaocompraval
 var recomendarval
-
-
+var flag
 
 function opiniaonav(avaliacao){
     console.log(avaliacao)
@@ -22,3 +21,14 @@ function submeteropiniao(){
     console.log(opiniaocompraval)
     console.log(recomendarval)
 }
+
+function entrar()
+{
+    flag = true
+}
+
+if (flag)
+{
+    document.getElementById("iniciar_sessao").setAttribute("type", "hidden")
+
+} 
