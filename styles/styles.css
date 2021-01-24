@@ -248,3 +248,15 @@ textarea{
       flex: 2 0px;
   }
 }
+.titulodef{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin:0;
+  color:black;
+}
+.deconta{
+  margin-left: 550px;
+  margin-right: 550px;
+}
