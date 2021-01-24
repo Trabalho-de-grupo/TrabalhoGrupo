@@ -199,22 +199,53 @@ textarea{
             width: 250px;
             height: 450px;
         }
-
-
-
-.paglog{
-  display:flex;
-  margin-left:250px;
-  
-}      
-.registar{
-  margin-left:200px;
-} 
+.formlog{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.titulolog{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin:0;
+  color:black;
+}
+.form>*{
+  flex: 1 100%;
+}
+.login{
+  margin-left: 400px;
+  margin-right: 50px;
+}
+.registar>*{
+  flex: 1 50%;
+  margin-right:400px;
+  margin-left:50px;
+}
+#submit{
+  border-radius: 8px;
+  font-family: poppins;
+  border:none;
+  position: relative;
+  margin-bottom: 100px;
+}
+#submit:hover{
+  color:#900C3F;
+  border: 1px solid #900C3F;
+}
 @media screen and (min-width:600px){
+  .registar>*{
+      flex: 1;
+  }
   .login{
-    flex: 1 0px;
+      flex: 1 0px;
   }
   .registar{
-    flex: 2 0px;
+      flex: 2 0px;
   }
 }

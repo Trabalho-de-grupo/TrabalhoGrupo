@@ -32,40 +32,44 @@
 </header>
 
 <body>
-    <div class="paglog">
-    <form class="login" onsubmit="entrar()">
-    <h1 class=>Já se encontra registado?</h1>
+    <h1 class="titulolog">Já se encontra registado?</h1>
+    <hr class="linha">
+    
+    <div class="formlog">
    
-    <h2 class="email">Email:</h2>
+
+    <form class="login" onsubmit="entrar()">
+    <h2>Iniciar Sessão:</h2>
+   
+    <h3 class="email">Email:</h3>
     <input type="email" id="email" required>
     
-    <h2 class="pass">Password:</h2>
+    <h3 class="pass">Password:</h3>
     <input type="password" id="password" required>
+    <br><br>
     <input type="submit" value="Iniciar Sessão" id="submit" ></input>
     </form>
     <form class="registar" onsubmit="entrar()">
-    <h1>Criar Conta:</h1>
+    <h2>Registar Conta:</h2>
 
-    <h2 class="name">Nome:</h2>
+    <h3 class="name">Nome:</h3>
     <input type="nome" id="nome" required>
    
-    <h2 class="data_de_nascimento">Data Nascimento:</h2>
+    <h3 class="data_de_nascimento">Data Nascimento:</h3>
     <input type="date" id="nascimento" required>
     
-    <h2 class="email2">Email:</h2>
+    <h3 class="email2">Email:</h3>
     <input type="mail" id="mail" required>
     
-    <h2 class="pass2">Password:</h2>
+    <h3 class="pass2">Password:</h3>
     <input type="password2" id="password2" required>
     
-    <h2 class="pass3">Confirme a Password:</h2>
+    <h3 class="pass3">Confirme a Password:</h3>
     <input type="password3" id="password3" required>
-
+        <br><br>
     <input type="submit" value="Resgistar" id="submit"></input>
     </form>
 </div>
-    
-  
 </body>
 
 <footer class="footer">
