@@ -199,3 +199,22 @@ textarea{
             width: 250px;
             height: 450px;
         }
+
+
+
+.paglog{
+  display:flex;
+  margin-left:250px;
+  
+}      
+.registar{
+  margin-left:200px;
+} 
+@media screen and (min-width:600px){
+  .login{
+    flex: 1 0px;
+  }
+  .registar{
+    flex: 2 0px;
+  }
+}
