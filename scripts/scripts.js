@@ -23,12 +23,5 @@ function submeteropiniao(){
 
 function entrar()
 {
-    alert("Hello! I am an alert box!!");
     console.log("Hello world!");
-    var i = 0
-    while (i = 1)
-    {
-        console.log("!")
-    }
-    document.getElementById("iniciar_sessao").hidden()
 }
