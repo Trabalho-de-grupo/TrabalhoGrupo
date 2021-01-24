@@ -1,6 +1,9 @@
-html{
-  max-width: 1300px;
+.icons{
+  flex:1;
+  text-align: right;
 }
+
+
 .cabecalho{
     display: flex;
     align-items: center;
@@ -10,16 +13,17 @@ html{
 
 nav{
     flex:1;
-    text-align: right;
+    text-align: center;
 }
 
 .produtos{
-  align-self: center;
+  text-align: center;
 }
 
 nav ul{
     display: inline-block;
     list-style-type: none;
+    text-align: left; 
 }
 nav ul li{
     display: inline-block;
