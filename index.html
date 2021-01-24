@@ -32,81 +32,20 @@
 </header>
 
 <body>
-    <h1>Pagina Inicial</h1>
 
-    <div class="slideshow-container">
+	<h1 class="titulo">PAGINA INICIAL</h1>
+	<hr class="linha">
 
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 4</div>
-          <img class="vinhoimagem" src="images/Vinho/vinhoalvarinho.jpg" style="width:100%">
-          <br><br>
-          <div class="text">Vinho Alvarinho</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 4</div>
-          <img class="vinhoimagem" src="images/Vinho/vinhocasalgarcia.jpg" style="width:100%">
-          <br><br>
-          <div class="text">Vinho Casal Garcia</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 4</div>
-          <img class="vinhoimagem" src="images/Vinho/vinhomuralhas.jpg" style="width:100%">
-          <br><br>
-          <div class="text">Vinho Muralhas</div>
-        </div>
-        
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 4</div>
-            <img class="vinhoimagem" src="images/Vinho/vinhosoalheiro.jpg" style="width:100%">
-            <br><br>
-            <div class="text">Vinho Soalheiro</div>
-          </div>
+	<h2 class="titulo">Destaques</h2>
+	
+	<article class="destaques">
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
-        </div>
+		<a href="vinhos/vinhomateus.html"><img src="images/Vinho/vinhomateus.jpg"></a>
+		<h2>Vinho Mateus Rosé</h2>
 
-        <br><br><br>
-        
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>  
-        </div>
-        
-        <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-        }
-        </script>
-    <br><br>
+		<a href="vinhos/vinhodalba.html"><img src="images/Vinho/vinhodalba.png"></a>
+		<h2>Vinho Castelo D'Alba Rosé</h2>
+	</article>
 
 </body>
 

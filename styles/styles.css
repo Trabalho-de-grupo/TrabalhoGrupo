@@ -3,6 +3,9 @@
   text-align: right;
 }
 
+.destaques{
+  display: flex;
+}
 
 .cabecalho{
     display: flex;
