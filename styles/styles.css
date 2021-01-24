@@ -206,14 +206,7 @@ textarea{
   display: flex;
   flex-flow: row wrap;
 }
-.titulolog{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
-  margin:0;
-  color:black;
-}
+
 .form>*{
   flex: 1 100%;
 }
@@ -248,14 +241,7 @@ textarea{
       flex: 2 0px;
   }
 }
-.titulodef{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
-  margin:0;
-  color:black;
-}
+
 .deconta{
   margin-left: 550px;
   margin-right: 550px;
@@ -285,4 +271,13 @@ th:first-child,
 td:first-child {
   text-align: left;
 }
+article{
+  border-style: solid;
+  border: 1;
+  border-color: lightgrey;
+}
 
+.alvarinho{
+  width: 222px;
+  height:250px ;
+}
