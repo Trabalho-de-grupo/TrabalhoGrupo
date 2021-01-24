@@ -32,16 +32,19 @@
 </header>
 
 <body>
-    <h1 class="login">Já se encontra registado?</h1>
+    <div class="paglog">
+    <form class="login" onsubmit="entrar()">
+    <h1 class=>Já se encontra registado?</h1>
    
     <h2 class="email">Email:</h2>
     <input type="email" id="email" required>
     
     <h2 class="pass">Password:</h2>
     <input type="password" id="password" required>
-    <input type="submit" value="Iniciar Sessão"></input>
-
-    <h1 class="registar">Criar Conta:</h1>
+    <input type="submit" value="Iniciar Sessão" id="submit" ></input>
+    </form>
+    <form class="registar" onsubmit="entrar()">
+    <h1>Criar Conta:</h1>
 
     <h2 class="name">Nome:</h2>
     <input type="nome" id="nome" required>
@@ -52,16 +55,15 @@
     <h2 class="email2">Email:</h2>
     <input type="mail" id="mail" required>
     
-    <h2 class="pass">Password:</h2>
+    <h2 class="pass2">Password:</h2>
     <input type="password2" id="password2" required>
     
     <h2 class="pass3">Confirme a Password:</h2>
     <input type="password3" id="password3" required>
-    
-    <h2 class="pais">País:</h2>
-    <input type="country" id="country" required>
-    
-    
+
+    <input type="submit" value="Resgistar" id="submit"></input>
+    </form>
+</div>
     
   
 </body>
