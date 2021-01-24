@@ -1,7 +1,6 @@
 var opiniaonavval
 var opiniaocompraval
 var recomendarval
-var flag
 
 function opiniaonav(avaliacao){
     console.log(avaliacao)
@@ -24,11 +23,12 @@ function submeteropiniao(){
 
 function entrar()
 {
-    flag = true
+    alert("Hello! I am an alert box!!");
+    console.log("Hello world!");
+    var i = 0
+    while (i = 1)
+    {
+        console.log("!")
+    }
+    document.getElementById("iniciar_sessao").hidden()
 }
-
-if (flag)
-{
-    document.getElementById("iniciar_sessao").setAttribute("type", "hidden")
-
-} 
