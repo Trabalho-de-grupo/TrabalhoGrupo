@@ -35,3 +35,11 @@ function adicionarCarrinho()
     alert(garrafa + "x Monte Velho")
 }
 
+function funcaoAparecer() {
+    var x = document.getElementById("destaque");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
