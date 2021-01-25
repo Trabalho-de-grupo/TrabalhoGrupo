@@ -2,7 +2,7 @@ var opiniaonavval
 var opiniaocompraval
 var recomendarval
 
-var garrafaqtd = 1
+var garrafaqtd = 0
 var garrafanome = "Vinho Monte Velho"
 var garrafapreco = 2.49
 
