@@ -324,3 +324,10 @@ td:first-child {
   border-color: lightgrey;
   width:200px;
 }
+#carrinhovinhos{
+  margin:80px auto;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
