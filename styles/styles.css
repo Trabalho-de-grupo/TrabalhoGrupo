@@ -283,6 +283,7 @@ td:first-child {
   border-style: solid;
   border: 1;
   border-color: lightgrey;
+  width:400px;
 }
 
 .vinho{
@@ -303,3 +304,11 @@ td:first-child {
   border: 1px solid #900C3F;
 }
 
+.tudo{
+  display: flex;
+  flex-wrap: row wrap;
+  flex-direction: row;
+  width: 400px;
+  height: 400px;
+  align-content: flex-end;
+}
