@@ -15,7 +15,7 @@ function login()
         x.style.display = "none";
 
         var y = document.getElementById("definicao_conta");
-        y.style.display = "block";
+        y.style.display = "inline-block";
 
     }
 }
@@ -90,7 +90,7 @@ function atualizarCarrinho()
 function funcaoAparecer() {
     var x = document.getElementById("destaque");
     if (x.style.display === "none") {
-      x.style.display = "flex";
+      x.style.display = "block";
     } else {
       x.style.display = "none";
     }
