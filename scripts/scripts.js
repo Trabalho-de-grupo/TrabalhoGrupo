@@ -28,9 +28,10 @@ function entrar()
     console.log("Login com Sucesso");
 }
 
-function AdicionarCarrinho()
+function adicionarCarrinho()
 {
-    console.log("1 passo")
-    garrafa = document.getElementById()
+    alert("1 passo")
+    garrafa = document.getElementById("quantidade-garrafa").value;
+    alert(garrafa + "x Monte Velho")
 }
 
