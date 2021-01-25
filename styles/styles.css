@@ -7,15 +7,6 @@ legend{
   text-align: right;
 }
 
-ul{
-  display: inline-block;
-  text-align: right;
-}
-
-ul li{
-  text-align: right;
-  display: inline-block;
-}
 
 .destaques{
   display: flex;
@@ -312,26 +303,3 @@ td:first-child {
   border: 1px solid #900C3F;
 }
 
-.primeiro{
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  margin-left: 800px;
-  margin-bottom:100px;
-}
-.descricoes{
-  margin-left: 800px;
-}
-.segundo{
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  margin-left: 800px;
-  margin-bottom:100px;
-}
