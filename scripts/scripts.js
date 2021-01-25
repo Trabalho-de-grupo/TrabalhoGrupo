@@ -95,3 +95,8 @@ function funcaoAparecer() {
       x.style.display = "none";
     }
   }
+ function pagamento(){
+    localStorage.setItem("quantidade", "0")
+    alert("Pagamento Efetuado!!");
+    atualizarCarrinho()
+ }
