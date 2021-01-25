@@ -8,11 +8,11 @@ var garrafapreco = 2.49
 
 function login()
 {
-    var x = document.getElementById("destaque");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
+
+    if (localStorage.getItem("flag") == "1")
+    {
+        var x = document.getElementById("iniciar_sessao");
+        x.style.display = "none";
     }
 }
 
@@ -37,7 +37,7 @@ function submeteropiniao(){
 
 function entrar()
 {   
-    localStorage.setItem("flag", true)
+    localStorage.setItem("flag", "1")
     console.log("Login com Sucesso");
 }
 
