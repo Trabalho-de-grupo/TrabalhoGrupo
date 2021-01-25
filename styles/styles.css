@@ -274,7 +274,7 @@ th:first-child,
 td:first-child {
   text-align: left;
 }
-article{
+.produto,.detalhes{
   border-style: solid;
   border: 1;
   border-color: lightgrey;
@@ -283,4 +283,24 @@ article{
 .vinho{
   width: 200px;
   height:200px ;
+}
+
+.botao{
+  border-radius: 8px;
+  font-family: poppins;
+  border:none;
+  position: relative;
+}
+.botao:hover{
+  color:#900C3F;
+  border: 1px solid #900C3F;
+}
+.primeiro{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 300px;
 }
