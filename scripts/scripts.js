@@ -2,6 +2,8 @@ var opiniaonavval
 var opiniaocompraval
 var recomendarval
 
+var garrafa
+
 function opiniaonav(avaliacao){
     console.log(avaliacao)
     opiniaoval=avaliacao
@@ -23,5 +25,12 @@ function submeteropiniao(){
 
 function entrar()
 {
-    console.log("Hello world!");
+    console.log("Login com Sucesso");
 }
+
+function AdicionarCarrinho()
+{
+    console.log("1 passo")
+    garrafa = document.getElementById()
+}
+
