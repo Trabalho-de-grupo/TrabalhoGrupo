@@ -254,31 +254,7 @@ textarea{
   margin-left: 550px;
   margin-right: 550px;
 }
-.formcheckout {
-  display: flex;
-  justify-content: space-between;
-  background-color: lightgrey;
-  color: white;
-  padding: 1em;
-  margin-top: 1em;
-}
 
-.tablecheckout {
-  background-color: lightgrey;
-  width: 100%;
-  margin-top: 1em;
-}
-
-th,
-td {
-  padding: 1em;
-  text-align: center;
-}
-
-th:first-child,
-td:first-child {
-  text-align: left;
-}
 .produto,.detalhes{
   border-style: solid;
   border: 1;
@@ -331,7 +307,7 @@ table{
   width: 100%;
   border-collapse: collapse;
 }
-th{
+.checkout{
   text-align: left;
   padding:5px;
   background-color:lightgrey ;
