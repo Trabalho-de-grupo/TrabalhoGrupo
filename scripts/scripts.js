@@ -30,8 +30,12 @@ function entrar()
 
 function adicionarCarrinho()
 {
-    alert("1 passo")
     garrafa = document.getElementById("quantidade-garrafa").value;
-    alert(garrafa + "x Monte Velho")
+
+}
+
+function atualizarCarrinho()
+{
+    alert("ola 123")
 }
 
