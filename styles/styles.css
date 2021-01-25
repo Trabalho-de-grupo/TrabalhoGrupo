@@ -283,6 +283,8 @@ td:first-child {
 .vinho{
   width: 200px;
   height:200px ;
+  margin-left:300px;
+  margin-top:100px;
 }
 
 .botao{
@@ -295,6 +297,7 @@ td:first-child {
   color:#900C3F;
   border: 1px solid #900C3F;
 }
+
 .primeiro{
   position: relative;
   left: 0;
@@ -302,5 +305,19 @@ td:first-child {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  margin-left: 300px;
+  margin-left: 800px;
+  margin-bottom:100px;
+}
+.descricoes{
+  margin-left: 800px;
+}
+.segundo{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 800px;
+  margin-bottom:100px;
 }
