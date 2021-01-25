@@ -8,7 +8,12 @@ var garrafapreco = 2.49
 
 function login()
 {
-    alert("Iniciado");
+    var x = document.getElementById("destaque");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
 }
 
 function opiniaonav(avaliacao){
