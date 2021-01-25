@@ -331,3 +331,11 @@ table{
   width: 100%;
   border-collapse: collapse;
 }
+th{
+  text-align: left;
+  padding:5px;
+  background-color:lightgrey ;
+}
+td{
+  padding: 10px 5px;
+}
