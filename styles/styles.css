@@ -315,4 +315,12 @@ td:first-child {
 
 .destaquesprocura{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.filtro{
+  border-style: solid;
+  border: 1;
+  border-color: lightgrey;
+  width:200px;
 }
