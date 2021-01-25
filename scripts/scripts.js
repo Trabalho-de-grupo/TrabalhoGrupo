@@ -6,6 +6,19 @@ var garrafaqtd = 1
 var garrafanome = "Vinho Monte Velho"
 var garrafapreco = 5.99
 
+
+if (localStorage.getItem(flag) == true)
+{
+    alert("Iniciado");
+}
+
+function login()
+{
+    alert("Iniciado");
+}
+
+window.onload = login();
+
 function opiniaonav(avaliacao){
     console.log(avaliacao)
     opiniaoval=avaliacao
@@ -26,7 +39,8 @@ function submeteropiniao(){
 }
 
 function entrar()
-{
+{   
+    localStorage.setItem("flag", true)
     console.log("Login com Sucesso");
 }
 
