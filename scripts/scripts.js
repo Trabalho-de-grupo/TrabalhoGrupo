@@ -20,6 +20,20 @@ function login()
     }
 }
 
+function sairSessao()
+{
+    localStorage.setItem("flag", "0")
+    localStorage.setItem("quantidade", "0")
+
+    atualizarCarrinho()
+
+    var y = document.getElementById("definicao_conta");
+    y.style.display = "none";
+
+    var x = document.getElementById("iniciar_sessao");
+    x.style.display = "block";
+}
+
 function opiniaonav(avaliacao){
     console.log(avaliacao)
     opiniaoval=avaliacao
