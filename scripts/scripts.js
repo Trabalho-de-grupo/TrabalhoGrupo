@@ -13,6 +13,10 @@ function login()
     {
         var x = document.getElementById("iniciar_sessao");
         x.style.display = "none";
+
+        var y = document.getElementById("definicao_conta");
+        y.style.display = "block";
+
     }
 }
 
