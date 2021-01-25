@@ -307,11 +307,36 @@ table{
   width: 100%;
   border-collapse: collapse;
 }
-.checkout{
+th{
   text-align: left;
   padding:5px;
   background-color:lightgrey ;
 }
 td{
   padding: 10px 5px;
+}
+.pagamento{
+  border-radius: 8px;
+  font-family: poppins;
+  border:none;
+  position: relative;
+  margin-bottom: 100px;
+  left: 900px;
+  top: 90px;
+}
+.pagamento:hover{
+  color:#900C3F;
+  border: 1px solid #900C3F;
+}
+
+.pagprocura{
+  border-radius: 8px;
+  font-family: poppins;
+  border:none;
+  position: relative;
+  margin-top: 20px;
+}
+.pagprocura:hover{
+  color:#900C3F;
+  border: 1px solid #900C3F;
 }
