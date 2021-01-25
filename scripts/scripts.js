@@ -31,11 +31,18 @@ function entrar()
 function adicionarCarrinho()
 {
     garrafa = document.getElementById("quantidade-garrafa").value;
+    alert(garrafa)
 
+}
+
+function comprarAgora()
+{
+    garrafa = document.getElementById("quantidade-garrafa").value;
+    alert(garrafa)
 }
 
 function atualizarCarrinho()
 {
-    alert("ola 123")
+    
 }
 
