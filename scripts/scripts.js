@@ -2,7 +2,9 @@ var opiniaonavval
 var opiniaocompraval
 var recomendarval
 
-var garrafa
+var garrafaqtd = 1
+var garrafanome = "Vinho Monte Velho"
+var garrafapreco = 5.99
 
 function opiniaonav(avaliacao){
     console.log(avaliacao)
@@ -30,19 +32,29 @@ function entrar()
 
 function adicionarCarrinho()
 {
-    garrafa = document.getElementById("quantidade-garrafa").value;
-    alert(garrafa)
+    garrafaqtd = document.getElementById("quantidade-garrafa").value;
+    localStorage.setItem("quantidade", garrafaqtd)
+    atualizarCarrinho()
 
 }
 
 function comprarAgora()
 {
-    garrafa = document.getElementById("quantidade-garrafa").value;
-    alert(garrafa)
+    garrafaqtd = document.getElementById("quantidade-garrafa").value;
+    localStorage.setItem("quantidade", garrafaqtd)
 }
 
 function atualizarCarrinho()
 {
-    
+    garrafaqtd = localStorage.getItem("quantidade")
+
+    garrafapreco = (garrafapreco * garrafaqtd)
+
+    if (garrafaqtd != null)
+    {
+        var text = "<tr><th>"
+        text += garrafaqtd + "</th><th>" + garrafanome + "</th><th>" + garrafapreco + "€</th></tr>"
+        document.getElementById("tabelagarrafa").innerHTML += text
+    }
 }
 
