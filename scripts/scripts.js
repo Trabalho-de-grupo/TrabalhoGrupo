@@ -4,20 +4,12 @@ var recomendarval
 
 var garrafaqtd = 1
 var garrafanome = "Vinho Monte Velho"
-var garrafapreco = 5.99
-
-
-if (localStorage.getItem(flag) == true)
-{
-    alert("Iniciado");
-}
+var garrafapreco = 2.49
 
 function login()
 {
     alert("Iniciado");
 }
-
-window.onload = login();
 
 function opiniaonav(avaliacao){
     console.log(avaliacao)
@@ -62,12 +54,12 @@ function atualizarCarrinho()
 {
     garrafaqtd = localStorage.getItem("quantidade")
 
-    garrafapreco = (garrafapreco * garrafaqtd)
+    garrafapreco = (garrafapreco * garrafaqtd).toFixed(2);
 
-    if (garrafaqtd != null)
+    if (garrafaqtd != 0)
     {
         var text = "<tr><th>"
-        text += garrafaqtd + "</th><th>" + garrafanome + "</th><th>" + garrafapreco + "€</th></tr>"
+        text += garrafanome + "</th><th>" + garrafaqtd + "</th><th>" + garrafapreco + "€</th></tr>"
         document.getElementById("tabelagarrafa").innerHTML += text
     }
 }
