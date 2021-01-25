@@ -3,6 +3,20 @@
   text-align: right;
 }
 
+legend{
+  text-align: right;
+}
+
+ul{
+  display: inline-block;
+  text-align: right;
+}
+
+ul li{
+  text-align: right;
+  display: inline-block;
+}
+
 .destaques{
   display: flex;
 }
