@@ -32,35 +32,57 @@
 </header>
 
 <body>
-    
-    <h1>Procurar Artigo</h1>
-<div> 
-        <label for="região">Região</label>
-        <select id="local" name="local">
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        </select>
+<div>
+        <h1 class="titulo">PROCURAR ARTIGO</h1>
+        <hr class="linhA">
+
+        <h2 class="titulo">Tinto</h2>
+    <article class="produto">
+        <div> 
+            <label for="Tipo">Tipo</label>
+            <select id="local" name="local">
+            <option value="Escolha">Tipo</option>
+            <option value="Tinto">Alentejo</option>
+            <option value="Branco">Douro</option>
+            <option value="Maduro">Setúbal</option>
+            <option value="Verde">Lorem</option>
+            <option value="Lorem">Lorem</option>
+            <option value="Lorem">Lorem</option>
+            </select>
+        </div>
+        <div> 
+            <button value="Em Destaque" onclick="funcaoAparecer()">Em Destaque</button>
+        </div>
+        <div> 
+            <button value="Promoções" onclick="">Promoções</button>
+        </div>
+    </article>
+    <div id="destaque" hidden> <h2 class="titulo">Destaques</h2>
+        
+
+    </div>
+        
+        <article class="destaquesprocura">
+
+            <a href="vinhos/pagina_vinho.html"><img src="images/Vinho/vinhomontevelho.jpg"></a>
+
+            <a href="vinhos/pagina_vinho.html"><img src="images/Vinho/vinhomontevelho.jpg"></a>
+
+            <a href="vinhos/pagina_vinho.html"><img src="images/Vinho/vinhomontevelho.jpg"></a>
+
+            <a href="vinhos/pagina_vinho.html"><img src="images/Vinho/vinhomontevelho.jpg"></a>
+        </article>
+
+            <ul class="descricoesvinho">
+                <li><legend>Vinho Monte Velho Maduro Tinto</legend></li>
+                <li><legend>Vinho Monte Velho Maduro Tinto</legend></li>
+                <li><legend>Vinho Monte Velho Maduro Tinto</legend></li>
+                <li><legend>Vinho Monte Velho Maduro Tinto</legend></li>
+            </ul>
+            
+        <br><br><br>
 </div>
-<div> 
-        <label for="em destaque">Em destaque</label>
-        <select id="destaque" name="destaque">
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        </select>
-</div>
-<div> 
-        <label for="Promoções">Promoções</label>
-        <select id="promoção" name="promoção">
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        </select>
-</div>
+        
 
 
 </body>

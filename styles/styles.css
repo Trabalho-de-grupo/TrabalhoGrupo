@@ -312,3 +312,7 @@ td:first-child {
   height: 400px;
   align-content: flex-end;
 }
+
+.destaquesprocura{
+  display: flex;
+}
