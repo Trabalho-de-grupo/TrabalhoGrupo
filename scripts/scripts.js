@@ -30,9 +30,20 @@ function entrar()
 
 function adicionarCarrinho()
 {
-    alert("1 passo")
     garrafa = document.getElementById("quantidade-garrafa").value;
-    alert(garrafa + "x Monte Velho")
+    alert(garrafa)
+
+}
+
+function comprarAgora()
+{
+    garrafa = document.getElementById("quantidade-garrafa").value;
+    alert(garrafa)
+}
+
+function atualizarCarrinho()
+{
+    
 }
 
 function funcaoAparecer() {
